@@ -1,3 +1,3 @@
 FROM ubuntu:22.04
-COPY ./target/release/get_my_ip ./target/release/get_my_ip
-ENTRYPOINT ["./target/release/get_my_ip"]
+COPY ./target/release/get-my-ip ./target/release/get-my-ip
+ENTRYPOINT ["./target/release/get-my-ip"]
